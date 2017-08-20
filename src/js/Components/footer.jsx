@@ -5,13 +5,13 @@ class Footer extends React.Component {
 	
 	render() {
 		return (<footer>
-		<ul>
-			<li><a href="#"><span>Twitter</span></a></li>
-			<li><a href="#"><span>Facebook</span></a></li>
-			<li><a href="#"><span>Instagram</span></a></li>
-		</ul>
+		<div className = "Items">
+			<a href="#"><span className="icon-twitter"></span></a>
+			<a href="#"><span className="icon-facebook"></span></a>
+			<a href="#"><span className="icon-instagram"></span></a>
+		</div>
 
-		<p>&copy; Terms &amp; conditions | Design & Development: <a href="#">John Smith</a></p>
+		<p className = "LastP">&copy; Terms &amp; conditions | Design & Development: <a href="#">JoaoRacedo</a></p>
 		
 		</footer>);
 	}

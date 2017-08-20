@@ -1,0 +1,16 @@
+footer{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	background: #9C969B;
+	padding: 10px 0;
+}
+	.Items{
+		padding: 10px 0;
+	a{
+	   text-decoration: none;
+       font-size: 26px;
+       padding: 5px;
+       margin: 5px;
+	}
+  }

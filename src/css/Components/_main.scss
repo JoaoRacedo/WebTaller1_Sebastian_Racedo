@@ -1,0 +1,121 @@
+section{
+	display: flex;
+	width: 100%;
+    max-width: none;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    *{
+    	margin: 0;
+    	padding: 0;
+    }
+	p{
+		font-size: 19px;
+	} 
+	h2{
+		padding: 5px;
+		text-align: left;
+	}
+}
+	.FirstSection{
+	background-size: cover;
+    background-image: url("/intro.jpg");
+	  	.div1{
+	  		display: flex;
+	  		align-items: center;
+	        flex-direction: column;
+	  		  .Sec1{
+	  		 text-align: center;
+	  		 font-size:4.25em;
+	  		}
+	  		.FirstP{
+	  			text-align: center;
+	  			width: 75%;
+	  		}
+	  	}	
+	}
+	.SecondSection{
+	background-size: cover;
+    background-image: url("/one.jpg");
+		.div2{
+			display: flex;
+			background-size: cover;
+			background-color: #FFFFFF;
+			flex-direction: column;
+			align-self: flex-end;
+			justify-content: center;
+			padding: 60px;
+			width: 510px;
+			height: 280px;
+			.Sec2{
+	  		 	font-size:2.25em;
+			}
+			.SecondP{
+				text-align: left;
+			}
+		}
+	}
+	.ThirdSection{
+	background-size: cover;
+    background-image: url("/two.jpg");
+		.div3{
+			display: flex;
+			background-size: cover;
+			background-color: #FFFFFF;
+			flex-direction: column;
+			justify-content: center;
+			align-self: flex-start;
+			padding: 60px;
+			width: 510px;
+			height: 280px;
+			.Sec3{
+	  		 	font-size:2.25em;
+			}
+			.Third3{
+				text-align: right;
+			}
+		}
+	}
+	.FourSection{
+		height: 100%;
+		.div4{
+	  		display: flex;
+	  		align-items: center;
+	        flex-direction: column;
+
+	         .images{
+	         	display: flex;
+	         	width: 900px;
+	         	height: 846px;
+	         	flex-wrap: wrap;
+
+	         }
+	  		 .Sec4{
+	  		 text-align: center;
+	  		 font-size:2.25em;
+	  		}
+	  		.FourP{
+	  			text-align: center;
+	  			width: 60%;
+	  		}
+	  	}
+	}
+	.FifthSection{
+		.div5{
+	  		display: flex;
+	  		align-items: center;
+	        flex-direction: column;
+	  		 .Sec5{
+	  		 text-align: center;
+	  		 font-size:2.25em;
+	  		}
+	  		.FifthP{
+	  			text-align: center;
+	  		}
+	  		.FormContat{
+	  			align-self: center;
+	  		}
+	  	}
+	}
+

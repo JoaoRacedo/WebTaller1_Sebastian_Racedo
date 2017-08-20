@@ -1,9 +1,30 @@
+$links:#6A6D7C;
+$links_hover:#9C969B;
 nav {
+    flex:1 1 50%;
+    position:relative;
     ul{
+        @extend .reset;
+        position:absolute;
+        right:0;
         li{
+            border-right:1px $links solid;
+            display:inline;
+            margin:0 0 0 12px;
+            padding:5px 12px 5px 0;
             a{
-                color:#900;
+                color:$links;
+                font-size:17px; 
+                line-height:50px;
+                text-decoration:none;
+                transition: color 1s;
             }
+            :hover{
+                color:$links_hover;
+            }
+        }
+        :last_child{
+            border:none;
         }
     }
 }

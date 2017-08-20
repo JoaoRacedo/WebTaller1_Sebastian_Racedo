@@ -4,12 +4,13 @@ const React = require('react');
 class Section4 extends React.Component {
 	
 	render() {
-		return (<section>
-					<h2>My Work</h2>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
+		return (<section className = "FourSection">
+			<div className = "div4">
+					<h2 className = "Sec4">My Work</h2>
+					<p className = "FourP">Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
 					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis
 					arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p>
-					<div>
+					<div className = "images"> 
 						<div>
 							<a href="/fulls/01.jpg"><img src="/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a>
 						</div>
@@ -23,12 +24,13 @@ class Section4 extends React.Component {
 							<a href="/fulls/04.jpg"><img src="/thumbs/04.jpg" title="Carry on" alt="" /></a>
 						</div>
 						<div>
-							<a href="/fulls/05.jpg"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a>
+							<a href="/fulls/05.jpg"><img src="/thumbs/05.jpg" title="The sparkling shell" alt="" /></a>
 						</div>
 						<div>
 							<a href="/fulls/06.jpg"><img src="/thumbs/06.jpg" title="Bent IX" alt="" /></a>
 						</div>
 					</div>
+				</div>
 				</section>);
 	}
 }
